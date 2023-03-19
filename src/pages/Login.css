@@ -1,0 +1,58 @@
+.form-container{
+    width: 500px;
+    margin: 50px auto;
+}
+.login-area{
+    align-items: center;
+    justify-content: center;  
+    border: 1px solid #f2f2f2;
+    padding: 60px;
+    border-radius: 3px;
+}
+
+.login-area h4{
+    color: #2B2B2B;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.login-area p {
+    text-align: center;
+    color: #2B2B2B;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input[type="email"], .form input[type="password"] {
+    padding: 8px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+}
+.form input:focus{
+    outline: none;
+}
+
+.button-container{
+    margin: 35px 60px 10px 60px;
+    
+}
+.sign-btn{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2B2B2B;
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid #2B2B2B;
+    padding: 7px;
+    transition: 1s;
+}
+
+.sign-btn:hover{
+    background-color: #ffffff;
+    color: #2B2B2B;
+}
