@@ -22,6 +22,15 @@
     font-size: 0.9rem;
 }
 
+.login-area p a{
+    color: #2B2B2B;
+    transition: 1s;
+}
+
+.login-area p a:hover{
+    color: #0000ff;
+}
+
 .form{
     display: flex;
     flex-direction: column;
