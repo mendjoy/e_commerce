@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { useState, useEffect } from 'react';
 
 const apiUrl = 'https://dummyjson.com/products';
 
@@ -11,3 +12,6 @@ export const getJewelery = async () => {
     return null;
   }
 };
+
+
+
