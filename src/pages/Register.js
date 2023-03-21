@@ -23,7 +23,7 @@ const Register = () => {
                     <input className='sign-btn'  type="submit" value='Sign Up' />
                 </div>
             </form>
-            <p>Does not have an account? <Link to='/login'>Login</Link></p>
+            <p>Already have an account? <Link to='/login'>Login</Link></p>
 
         </div>
 
