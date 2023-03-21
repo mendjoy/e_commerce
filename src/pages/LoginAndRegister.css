@@ -1,33 +1,33 @@
-.form-container{
-    width: 500px;
-    margin: 50px auto;
+.form-container, .register-container{
+    width: 600px;
+    margin: 80px auto;
 }
-.login-area{
+.login-area, .register-area{
     align-items: center;
     justify-content: center;  
     border: 1px solid #f2f2f2;
-    padding: 60px;
+    padding: 80px;
     border-radius: 3px;
 }
 
-.login-area h4{
+.login-area h4, .register-area h4{
     color: #2B2B2B;
     font-size: 1.4rem;
     margin-bottom: 20px;
 }
-.login-area p {
+.login-area p, .register-area p {
     text-align: center;
     color: #2B2B2B;
     margin-top: 5px;
     font-size: 0.9rem;
 }
 
-.login-area p a{
+.login-area p a, .register-area p a{
     color: #2B2B2B;
     transition: 1s;
 }
 
-.login-area p a:hover{
+.login-area p a:hover, .register-area p a:hover{
     color: #0000ff;
 }
 
@@ -36,7 +36,7 @@
     flex-direction: column;
 }
 
-.form input[type="email"], .form input[type="password"] {
+.form input[type="email"], .form input[type="password"], .form input[type="text"] {
     padding: 8px;
     margin: 10px;
     border: none;
