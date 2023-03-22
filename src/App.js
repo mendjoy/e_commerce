@@ -7,12 +7,13 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Watches from './pages/Watches';
 import Sunglasses from './pages/Sunglasses';
+import Bags from './pages/Bags';
+import Shoes from './pages/Shoes';
+import ProductInfo from './pages/ProductInfo';
 
 //components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Bags from './pages/Bags';
-
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
             <Route path='/watches' element={<Watches/>}/>
             <Route path='/sunglasses' element={<Sunglasses/>}/>
             <Route path='/bags' element={<Bags/>}/>
+            <Route path='/shoes' element={<Shoes/>}/>
+            <Route path='/product/:id' element={<ProductInfo/>}/>
             <Route path='/login' element={<Login/>} />
             <Route path='/register' element={<Register/>} />
           </Routes> 
