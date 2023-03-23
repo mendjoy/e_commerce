@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 //css
-import './Login.css'
+import './LoginAndRegister.css'
 
 //icons
 import { FiUser } from 'react-icons/fi'
