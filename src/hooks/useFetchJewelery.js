@@ -8,7 +8,7 @@ export const useJewelery =  () => {
   const [jeweleryData, setJeweleryData] = useState([]);
 
   const getJewelery = (url) => {
-
+    
     axios.get(url)
       .then(response =>  setJeweleryData(response.data.products))
       .catch(error => console.log(error));
@@ -16,11 +16,9 @@ export const useJewelery =  () => {
 
     useEffect(() => {
         getJewelery(`${apiUrl}/category/womens-jewellery`);
-    
-},[])
+    },[])
 
-return  { jeweleryData }
-  
+    return  { jeweleryData }
 };
 
 
