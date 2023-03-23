@@ -13,6 +13,11 @@
     margin: 20px;
 }
 
+.product-card-container .product-info a{
+    color: #000000;
+    text-decoration: none;
+}
+
 .product-card-container .product-info img{
     width: 280px;
     height: 280px;
