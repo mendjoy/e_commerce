@@ -13,7 +13,7 @@ const Watches = () => {
 
   return (
     <div className='product-container'>
-        { watchesData.length === 0 && <p>Carregando...</p>}
+        { watchesData.length === 0 && <p className='loading'>Loading...</p>}
         { watchesData.map((product) => <ProductsCard key={product.id} product={product}/>)}
     </div>
   )

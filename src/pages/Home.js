@@ -19,7 +19,7 @@ const Home = () => {
             <h3>Divine Sparkle</h3>
         </div>
 
-      { jeweleryData.length === 0 && <p>Carregando...</p>}
+      { jeweleryData.length === 0 && <p className='loading'>Loading...</p>}
       { jeweleryData.map((product) => <ProductsCard key={product.id} product={product}/>)}
       
     </div>

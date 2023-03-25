@@ -9,7 +9,7 @@ const ProductInfo = () => {
    
   return (
     <div>
-        {productInfo == null && <p>Aguarde...</p>}
+        {productInfo === null && <div></div>}
         {productInfo != null && 
         <div>
             <h3>{productInfo.title}</h3>

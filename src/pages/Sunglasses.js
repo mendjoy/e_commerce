@@ -11,7 +11,7 @@ const Sunglasses = () => {
 
   return (
     <div className='product-container'>
-        { sunglassesData.length === 0 && <p>Carregando...</p>}
+        { sunglassesData.length === 0 && <p className='loading'>Loading...</p>}
         { sunglassesData.map((product) => <ProductsCard key={product.id} product={product}/>)}
     </div>
   )

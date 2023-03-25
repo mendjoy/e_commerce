@@ -9,7 +9,7 @@ const Bags = () => {
 
   return (
     <div className='product-container'>
-        { bagsData.length === 0 && <p>Carregando...</p>}
+        { bagsData.length === 0 && <p className='loading'>Loading...</p>}
         { bagsData.map((product) => <ProductsCard key={product.id} product={product}/>)}
     </div>
   )
